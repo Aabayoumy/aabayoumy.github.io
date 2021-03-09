@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.page {
+  min-height: 200px;
+  width: 1200px;
+  background: whitesmoke;
+  margin: 50px auto;
+  padding: 30px;
+  color: #27aae1;
+  overflow: hidden;
+}
+.header img {
+  width: 170px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none;
+  /* float: left; */
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 50%;
+  zoom: 100%;
+}
+.header img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+.header-text {
+  color: black;
+  width: 69%;
+  margin-left: 300px;
+  /* margin-left: 220px; */
+}
+.name {
+  margin-bottom: -5px;
+  width: 100%;
+  text-align: center;
+}
+.job-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-details {
+  background: #27aae1;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.objective {
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#education h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+#education table td {
+  padding: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+#education table tr.BItems td:first-child {
+  width: 130px;
+  color: gray;
+  align-items: center;
+}
+
+#work h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+#work table td {
+  padding: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+#work table tr.BItems td:first-child {
+  width: 130px;
+  color: gray;
+}
+
+#bio-data h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+#bio-data table td {
+  padding: 0px;
+  font-size: 15px;
+  color: #000;
+}
+
+#bio-data table tr td:first-child {
+  width: 135px;
+}
+
+#bio-data table tr td:nth-child(2) {
+  width: 300px;
+}
+.column_left {
+  width: 79%;
+  float: left;
+}
+.column_right {
+  width: 20%;
+  float: right;
+}
+
+.Skills {
+  /* width: 49%;
+  float: left; */
+}
+
+.Skills h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+.Projects {
+  /* width: 49%;
+  float: Right; */
+}
+.Projects h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+.Projects ul {
+  color: black;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
+
+.bars {
+  margin-top: 10px;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  column-gap: 10px;
+  row-gap: 10px;
+  /* padding: 0 30%; */
+}
+.bars .bar p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.bar span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 10px;
+  margin-top: 00px;
+  position: relative;
+}
+
+.bar span::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 80%;
+  background-color: black;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+.bar .Servers::before {
+  width: 100%;
+}
+.bar .PowerShell::before {
+  width: 90%;
+}
+.bar .AD::before {
+  width: 95%;
+}
+.bar .Forti::before {
+  width: 70%;
+}
+.bar .SEPM::before {
+  width: 90%;
+}
+.bar .Cisco::before {
+  width: 50%;
+}
+.bar .linux::before {
+  width: 80%;
+}
