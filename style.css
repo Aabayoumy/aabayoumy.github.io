@@ -14,7 +14,7 @@ body {
   color: #27aae1;
   overflow: hidden;
 }
-.header img {
+.header .Profile {
   width: 170px;
   height: 200px;
   border-radius: 50%;
@@ -29,10 +29,19 @@ body {
   border-radius: 50%;
   zoom: 100%;
 }
-.header img:hover {
+.header .Profile:hover {
   filter: grayscale(0%);
   transform: scale(1.05);
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+.qr {
+  width: 120px;
+  height: 120px;
+  user-select: none;
+  float: right;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 .header-text {
   color: black;
@@ -131,12 +140,26 @@ body {
   width: 300px;
 }
 .column_left {
-  width: 75%;
+  width: 74%;
   float: left;
 }
 .column_right {
   width: 25%;
   float: right;
+}
+
+.Languages h3 {
+  border: 1px solid #d3d3d3;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px 0 10px;
+}
+
+.Languages ul {
+  color: black;
+  margin-top: 5px;
+  padding: 0px 10px;
 }
 
 .Skills h3 {
