@@ -35,13 +35,12 @@ body {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 }
 .qr {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   user-select: none;
-  float: right;
-  position: absolute;
-  margin-left: 0px;
-  margin-top: 20px;
+  /* float: right; */
+  /* position: absolute; */
+  margin: auto;
 }
 .header-text {
   color: black;
@@ -84,7 +83,7 @@ body {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
-  margin: 30px 0 10px;
+  margin: 10px 0 10px;
 }
 
 #education table td {
@@ -104,7 +103,7 @@ body {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
-  margin: 30px 0 10px;
+  margin: 10px 0 10px;
 }
 
 #work table td {
@@ -153,13 +152,14 @@ body {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
-  margin: 30px 0 10px;
+  margin: 10px 0 10px;
 }
 
 .Languages ul {
   color: black;
   margin-top: 5px;
   padding: 0px 10px;
+  margin: 10px 0 10px;
 }
 
 .Skills h3 {
@@ -175,7 +175,7 @@ body {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
-  margin: 30px 0 10px;
+  margin: 10px 0 10px;
 }
 .Projects ul {
   color: black;
