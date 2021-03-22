@@ -98,19 +98,19 @@ body {
 #education table tr.BItems td:first-child {
   width: 130px;
   color: gray;
-  align-items: center;
+  align-items: left;
 }
 
 #work h3 {
   border: 1px solid #d3d3d3;
   text-transform: uppercase;
-  padding: 5px;
+  padding: 1px;
   border-radius: 5px;
   margin: 10px 0 10px;
 }
 
 #work table td {
-  padding: 0px;
+  padding: 10px;
   font-size: 14px;
   color: #000;
 }
@@ -118,6 +118,7 @@ body {
 #work table tr.BItems td:first-child {
   width: 130px;
   color: gray;
+  align-items: left;
 }
 
 #work .BItems ul{
