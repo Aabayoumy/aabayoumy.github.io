@@ -164,13 +164,21 @@ body {
   padding: 0px 10px;
   margin: 10px 0 10px;
 }
-
+.Skills {
+  margin-left: 0px;
+}
 .Skills h3 {
   border: 1px solid #d3d3d3;
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
   margin: 30px 0 10px;
+}
+.Skills ul {
+  color: black;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0px 10px;
 }
 
 .Projects h3 {
@@ -183,9 +191,14 @@ body {
 .Projects ul {
   color: black;
   margin-top: 5px;
+  margin-left: 10px;
   padding: 0px 10px;
 }
 
+.Languages ul {
+  margin-top: 5px;
+  margin-left: 10px;
+}
 .bars {
   margin-top: 10px;
   /* display: grid;
