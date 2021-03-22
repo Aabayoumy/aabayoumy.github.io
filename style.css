@@ -6,7 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .page {
-  min-height: 200px;
+  /* min-height: 100px; */
   width: 1000px;
   background: whitesmoke;
   margin: 10px auto;
@@ -199,7 +199,7 @@ body {
   margin-top: 5px;
   margin-left: 10px;
 }
-.bars {
+/* .bars {
   margin-top: 10px;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
@@ -253,4 +253,4 @@ body {
 }
 .bar .linux::before {
   width: 80%;
-}
+} */
