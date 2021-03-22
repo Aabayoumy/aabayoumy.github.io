@@ -110,7 +110,7 @@ body {
 }
 
 #work table td {
-  padding: 5px;
+  padding: 0px;
   font-size: 14px;
   color: #000;
 }
@@ -118,6 +118,14 @@ body {
 #work table tr.BItems td:first-child {
   width: 130px;
   color: gray;
+}
+
+#work .BItems ul{
+  color: black;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 0px 10px;
+
 }
 
 #bio-data h3 {
@@ -186,7 +194,7 @@ body {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 5px;
-  margin: 10px 0 10px;
+  margin: 30px 0 10px;
 }
 .Projects ul {
   color: black;
