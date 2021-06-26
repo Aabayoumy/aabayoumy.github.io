@@ -35,13 +35,14 @@ body {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 }
 .qr {
-  width: 180px;
-  height: 180px;
+  width: 205px;
+  height: 205px;
   user-select: none;
   float: right;
   /* position: absolute; */
-  margin-right: 50px;
+  margin-right: 2900px;
   margin-top: 10px;
+  zoom: 8%;
   /* padding: 0px; */
 }
 .header-text {
